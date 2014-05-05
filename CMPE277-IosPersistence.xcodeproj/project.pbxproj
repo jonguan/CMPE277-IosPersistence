@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCFBB3019149BFE003FB5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB2F19149BFE003FB5A5 /* Foundation.framework */; };
+		FDCFBB3219149BFE003FB5A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB3119149BFE003FB5A5 /* CoreGraphics.framework */; };
+		FDCFBB3419149BFE003FB5A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB3319149BFE003FB5A5 /* UIKit.framework */; };
+		FDCFBB3A19149BFE003FB5A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB3819149BFE003FB5A5 /* InfoPlist.strings */; };
+		FDCFBB3C19149BFE003FB5A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB3B19149BFE003FB5A5 /* main.m */; };
+		FDCFBB4019149BFE003FB5A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB3F19149BFE003FB5A5 /* AppDelegate.m */; };
+		FDCFBB4319149BFE003FB5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB4119149BFE003FB5A5 /* Main.storyboard */; };
+		FDCFBB4619149BFE003FB5A5 /* FileSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB4519149BFE003FB5A5 /* FileSaveViewController.m */; };
+		FDCFBB4919149BFE003FB5A5 /* ArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB4819149BFE003FB5A5 /* ArchiveViewController.m */; };
+		FDCFBB4B19149BFE003FB5A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB4A19149BFE003FB5A5 /* Images.xcassets */; };
+		FDCFBB5219149BFE003FB5A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB5119149BFE003FB5A5 /* XCTest.framework */; };
+		FDCFBB5319149BFE003FB5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB2F19149BFE003FB5A5 /* Foundation.framework */; };
+		FDCFBB5419149BFE003FB5A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFBB3319149BFE003FB5A5 /* UIKit.framework */; };
+		FDCFBB5C19149BFE003FB5A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB5A19149BFE003FB5A5 /* InfoPlist.strings */; };
+		FDCFBB5E19149BFE003FB5A5 /* CMPE277_IosPersistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB5D19149BFE003FB5A5 /* CMPE277_IosPersistenceTests.m */; };
+		FDCFBB6919149F7B003FB5A5 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBB6819149F7B003FB5A5 /* FileHelper.m */; };
+		FDF3FFA219174E82005BD9E9 /* SqliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFA119174E82005BD9E9 /* SqliteViewController.m */; };
+		FDF3FFA4191752B9005BD9E9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFA3191752B9005BD9E9 /* libsqlite3.dylib */; };
+		FDF3FFA719176148005BD9E9 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFA619176148005BD9E9 /* CoreDataViewController.m */; };
+		FDF3FFA9191764D2005BD9E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3FFA8191764D2005BD9E9 /* CoreData.framework */; };
+		FDF3FFAC191765CD005BD9E9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF3FFAA191765CD005BD9E9 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCFBB5519149BFE003FB5A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCFBB2419149BFE003FB5A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCFBB2B19149BFE003FB5A5;
+			remoteInfo = "CMPE277-IosPersistence";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDCFBB2C19149BFE003FB5A5 /* CMPE277-IosPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CMPE277-IosPersistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCFBB2F19149BFE003FB5A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCFBB3119149BFE003FB5A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCFBB3319149BFE003FB5A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCFBB3719149BFE003FB5A5 /* CMPE277-IosPersistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-IosPersistence-Info.plist"; sourceTree = "<group>"; };
+		FDCFBB3919149BFE003FB5A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCFBB3B19149BFE003FB5A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCFBB3D19149BFE003FB5A5 /* CMPE277-IosPersistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMPE277-IosPersistence-Prefix.pch"; sourceTree = "<group>"; };
+		FDCFBB3E19149BFE003FB5A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDCFBB3F19149BFE003FB5A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDCFBB4219149BFE003FB5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCFBB4419149BFE003FB5A5 /* FileSaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSaveViewController.h; sourceTree = "<group>"; };
+		FDCFBB4519149BFE003FB5A5 /* FileSaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSaveViewController.m; sourceTree = "<group>"; };
+		FDCFBB4719149BFE003FB5A5 /* ArchiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveViewController.h; sourceTree = "<group>"; };
+		FDCFBB4819149BFE003FB5A5 /* ArchiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveViewController.m; sourceTree = "<group>"; };
+		FDCFBB4A19149BFE003FB5A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDCFBB5019149BFE003FB5A5 /* CMPE277-IosPersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CMPE277-IosPersistenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCFBB5119149BFE003FB5A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDCFBB5919149BFE003FB5A5 /* CMPE277-IosPersistenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-IosPersistenceTests-Info.plist"; sourceTree = "<group>"; };
+		FDCFBB5B19149BFE003FB5A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCFBB5D19149BFE003FB5A5 /* CMPE277_IosPersistenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPE277_IosPersistenceTests.m; sourceTree = "<group>"; };
+		FDCFBB6719149F7B003FB5A5 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		FDCFBB6819149F7B003FB5A5 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		FDF3FFA019174E82005BD9E9 /* SqliteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteViewController.h; sourceTree = "<group>"; };
+		FDF3FFA119174E82005BD9E9 /* SqliteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteViewController.m; sourceTree = "<group>"; };
+		FDF3FFA3191752B9005BD9E9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FDF3FFA519176148005BD9E9 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		FDF3FFA619176148005BD9E9 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		FDF3FFA8191764D2005BD9E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDF3FFAB191765CD005BD9E9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCFBB2919149BFE003FB5A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFA9191764D2005BD9E9 /* CoreData.framework in Frameworks */,
+				FDF3FFA4191752B9005BD9E9 /* libsqlite3.dylib in Frameworks */,
+				FDCFBB3219149BFE003FB5A5 /* CoreGraphics.framework in Frameworks */,
+				FDCFBB3419149BFE003FB5A5 /* UIKit.framework in Frameworks */,
+				FDCFBB3019149BFE003FB5A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBB4D19149BFE003FB5A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCFBB5219149BFE003FB5A5 /* XCTest.framework in Frameworks */,
+				FDCFBB5419149BFE003FB5A5 /* UIKit.framework in Frameworks */,
+				FDCFBB5319149BFE003FB5A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCFBB2319149BFE003FB5A5 = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB3519149BFE003FB5A5 /* CMPE277-IosPersistence */,
+				FDCFBB5719149BFE003FB5A5 /* CMPE277-IosPersistenceTests */,
+				FDCFBB2E19149BFE003FB5A5 /* Frameworks */,
+				FDCFBB2D19149BFE003FB5A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCFBB2D19149BFE003FB5A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB2C19149BFE003FB5A5 /* CMPE277-IosPersistence.app */,
+				FDCFBB5019149BFE003FB5A5 /* CMPE277-IosPersistenceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCFBB2E19149BFE003FB5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3FFA8191764D2005BD9E9 /* CoreData.framework */,
+				FDF3FFA3191752B9005BD9E9 /* libsqlite3.dylib */,
+				FDCFBB2F19149BFE003FB5A5 /* Foundation.framework */,
+				FDCFBB3119149BFE003FB5A5 /* CoreGraphics.framework */,
+				FDCFBB3319149BFE003FB5A5 /* UIKit.framework */,
+				FDCFBB5119149BFE003FB5A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCFBB3519149BFE003FB5A5 /* CMPE277-IosPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB3E19149BFE003FB5A5 /* AppDelegate.h */,
+				FDCFBB3F19149BFE003FB5A5 /* AppDelegate.m */,
+				FDCFBB4119149BFE003FB5A5 /* Main.storyboard */,
+				FDCFBB4419149BFE003FB5A5 /* FileSaveViewController.h */,
+				FDCFBB4519149BFE003FB5A5 /* FileSaveViewController.m */,
+				FDCFBB4719149BFE003FB5A5 /* ArchiveViewController.h */,
+				FDCFBB4819149BFE003FB5A5 /* ArchiveViewController.m */,
+				FDCFBB4A19149BFE003FB5A5 /* Images.xcassets */,
+				FDCFBB3619149BFE003FB5A5 /* Supporting Files */,
+				FDCFBB6719149F7B003FB5A5 /* FileHelper.h */,
+				FDCFBB6819149F7B003FB5A5 /* FileHelper.m */,
+				FDF3FFA019174E82005BD9E9 /* SqliteViewController.h */,
+				FDF3FFA119174E82005BD9E9 /* SqliteViewController.m */,
+				FDF3FFA519176148005BD9E9 /* CoreDataViewController.h */,
+				FDF3FFA619176148005BD9E9 /* CoreDataViewController.m */,
+				FDF3FFAA191765CD005BD9E9 /* Model.xcdatamodeld */,
+			);
+			path = "CMPE277-IosPersistence";
+			sourceTree = "<group>";
+		};
+		FDCFBB3619149BFE003FB5A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB3719149BFE003FB5A5 /* CMPE277-IosPersistence-Info.plist */,
+				FDCFBB3819149BFE003FB5A5 /* InfoPlist.strings */,
+				FDCFBB3B19149BFE003FB5A5 /* main.m */,
+				FDCFBB3D19149BFE003FB5A5 /* CMPE277-IosPersistence-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDCFBB5719149BFE003FB5A5 /* CMPE277-IosPersistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB5D19149BFE003FB5A5 /* CMPE277_IosPersistenceTests.m */,
+				FDCFBB5819149BFE003FB5A5 /* Supporting Files */,
+			);
+			path = "CMPE277-IosPersistenceTests";
+			sourceTree = "<group>";
+		};
+		FDCFBB5819149BFE003FB5A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBB5919149BFE003FB5A5 /* CMPE277-IosPersistenceTests-Info.plist */,
+				FDCFBB5A19149BFE003FB5A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCFBB2B19149BFE003FB5A5 /* CMPE277-IosPersistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCFBB6119149BFE003FB5A5 /* Build configuration list for PBXNativeTarget "CMPE277-IosPersistence" */;
+			buildPhases = (
+				FDCFBB2819149BFE003FB5A5 /* Sources */,
+				FDCFBB2919149BFE003FB5A5 /* Frameworks */,
+				FDCFBB2A19149BFE003FB5A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMPE277-IosPersistence";
+			productName = "CMPE277-IosPersistence";
+			productReference = FDCFBB2C19149BFE003FB5A5 /* CMPE277-IosPersistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCFBB4F19149BFE003FB5A5 /* CMPE277-IosPersistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCFBB6419149BFE003FB5A5 /* Build configuration list for PBXNativeTarget "CMPE277-IosPersistenceTests" */;
+			buildPhases = (
+				FDCFBB4C19149BFE003FB5A5 /* Sources */,
+				FDCFBB4D19149BFE003FB5A5 /* Frameworks */,
+				FDCFBB4E19149BFE003FB5A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCFBB5619149BFE003FB5A5 /* PBXTargetDependency */,
+			);
+			name = "CMPE277-IosPersistenceTests";
+			productName = "CMPE277-IosPersistenceTests";
+			productReference = FDCFBB5019149BFE003FB5A5 /* CMPE277-IosPersistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCFBB2419149BFE003FB5A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scanadu, Inc";
+				TargetAttributes = {
+					FDCFBB4F19149BFE003FB5A5 = {
+						TestTargetID = FDCFBB2B19149BFE003FB5A5;
+					};
+				};
+			};
+			buildConfigurationList = FDCFBB2719149BFE003FB5A5 /* Build configuration list for PBXProject "CMPE277-IosPersistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCFBB2319149BFE003FB5A5;
+			productRefGroup = FDCFBB2D19149BFE003FB5A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCFBB2B19149BFE003FB5A5 /* CMPE277-IosPersistence */,
+				FDCFBB4F19149BFE003FB5A5 /* CMPE277-IosPersistenceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCFBB2A19149BFE003FB5A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCFBB4B19149BFE003FB5A5 /* Images.xcassets in Resources */,
+				FDCFBB3A19149BFE003FB5A5 /* InfoPlist.strings in Resources */,
+				FDCFBB4319149BFE003FB5A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBB4E19149BFE003FB5A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCFBB5C19149BFE003FB5A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCFBB2819149BFE003FB5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3FFA219174E82005BD9E9 /* SqliteViewController.m in Sources */,
+				FDCFBB6919149F7B003FB5A5 /* FileHelper.m in Sources */,
+				FDCFBB4919149BFE003FB5A5 /* ArchiveViewController.m in Sources */,
+				FDF3FFAC191765CD005BD9E9 /* Model.xcdatamodeld in Sources */,
+				FDCFBB4019149BFE003FB5A5 /* AppDelegate.m in Sources */,
+				FDCFBB4619149BFE003FB5A5 /* FileSaveViewController.m in Sources */,
+				FDCFBB3C19149BFE003FB5A5 /* main.m in Sources */,
+				FDF3FFA719176148005BD9E9 /* CoreDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBB4C19149BFE003FB5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCFBB5E19149BFE003FB5A5 /* CMPE277_IosPersistenceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCFBB5619149BFE003FB5A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCFBB2B19149BFE003FB5A5 /* CMPE277-IosPersistence */;
+			targetProxy = FDCFBB5519149BFE003FB5A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCFBB3819149BFE003FB5A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCFBB3919149BFE003FB5A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDCFBB4119149BFE003FB5A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCFBB4219149BFE003FB5A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCFBB5A19149BFE003FB5A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCFBB5B19149BFE003FB5A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCFBB5F19149BFE003FB5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDCFBB6019149BFE003FB5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCFBB6219149BFE003FB5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosPersistence/CMPE277-IosPersistence-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosPersistence/CMPE277-IosPersistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCFBB6319149BFE003FB5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosPersistence/CMPE277-IosPersistence-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosPersistence/CMPE277-IosPersistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDCFBB6519149BFE003FB5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-IosPersistence.app/CMPE277-IosPersistence";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosPersistence/CMPE277-IosPersistence-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMPE277-IosPersistenceTests/CMPE277-IosPersistenceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDCFBB6619149BFE003FB5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-IosPersistence.app/CMPE277-IosPersistence";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-IosPersistence/CMPE277-IosPersistence-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-IosPersistenceTests/CMPE277-IosPersistenceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCFBB2719149BFE003FB5A5 /* Build configuration list for PBXProject "CMPE277-IosPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBB5F19149BFE003FB5A5 /* Debug */,
+				FDCFBB6019149BFE003FB5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCFBB6119149BFE003FB5A5 /* Build configuration list for PBXNativeTarget "CMPE277-IosPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBB6219149BFE003FB5A5 /* Debug */,
+				FDCFBB6319149BFE003FB5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCFBB6419149BFE003FB5A5 /* Build configuration list for PBXNativeTarget "CMPE277-IosPersistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBB6519149BFE003FB5A5 /* Debug */,
+				FDCFBB6619149BFE003FB5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDF3FFAA191765CD005BD9E9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDF3FFAB191765CD005BD9E9 /* Model.xcdatamodel */,
+			);
+			currentVersion = FDF3FFAB191765CD005BD9E9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDCFBB2419149BFE003FB5A5 /* Project object */;
+}
